@@ -1,0 +1,11 @@
+[Unit]
+Description=delta-shell
+PartOf=graphical-session.target
+After=graphical-session.target
+Wants=dbus.service
+Restart=always
+
+[Service]
+ExecStartPre=/usr/bin/sleep 1s
+ExecStart=/usr/bin/delta-shell run
+ExecReload=/usr/bin/delta-shell restart
