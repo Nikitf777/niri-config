@@ -16,7 +16,7 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: Ghostty" { spawn "ghostty"; }
     Mod+E hotkey-overlay-title="Open a File Manager: nautilus" { spawn "nautilus"; }
-    Super+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
+    Super+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "/etc/niri/scripts/lock-screen.sh"; }
     Mod+Shift+R hotkey-overlay-title="Reload Shell" { spawn "delta-shell" "restart"; }
     Mod+P hotkey-overlay-title="Open an App Launcher: delta-shell" { spawn "delta-shell" "toggle" "applauncher"; }
     
