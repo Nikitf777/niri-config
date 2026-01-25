@@ -5,4 +5,4 @@ cd ../..
 ./apply-niri-config.sh
 ./apply-delta-shell-config.sh
 ./apply-systemd-config.sh
-cp -rv hypr/ ~/.config/
+./apply-hypr-config.sh
