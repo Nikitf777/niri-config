@@ -1,4 +1,5 @@
 #!/usr/bin/sh
+niri msg action power-off-monitors
 prev_layout=$(niri msg --json keyboard-layouts | jq  '.current_idx')
 lockscreen_layout="English (US)"
 niri msg action switch-layout $(niri msg --json keyboard-layouts | jq --arg layout "$lockscreen_layout" '.names | index($layout)')
