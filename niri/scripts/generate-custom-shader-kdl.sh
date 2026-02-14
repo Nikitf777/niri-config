@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 set -eu
 
 [ $# -eq 2 ] || { echo "Usage: $0 <shader_file> <animation_type>" >&2; exit 1; }

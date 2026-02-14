@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 set -eu
 
 [ $# -eq 1 ] || { echo "Usage: $0 <shader_file>" >&2; exit 1; }

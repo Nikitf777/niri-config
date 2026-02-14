@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/zsh
 niri msg action power-off-monitors
 layouts=$(niri msg --json keyboard-layouts)
 prev_layout=$(echo $layouts | jq  '.current_idx')
