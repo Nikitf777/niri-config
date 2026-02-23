@@ -3,6 +3,6 @@
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 
-// spawn-sh-at-startup "delta-shell run"
-spawn-sh-at-startup "systemctl --user start delta-shell"
+// Uncomment to use delta-shell
+// spawn-sh-at-startup "systemctl --user start delta-shell"
 spawn-at-startup "xwayland-satellite"
